@@ -8,10 +8,17 @@ This is a Raspberry Pi project for a water level alarm. The project monitors the
 - Virtual environment (venv) for managing dependencies
 - Operating System: Raspberry Pi OS
 
+## Raspberry pi gpio connections
+
+gpio wiring position 
+
+* Lower water level: gpio2 -> GND  
+* Upper water level: gpio3 -> GND
+
 ## Installation
 1. Clone the project repository:
 ```bash
-git clone https://github.com/your_username/raspberry-water-level-alarm.git
+git clone https://github.com/wuchuhengtools/water_level_walam_gpio_python.git
 cd raspberry-water-level-alarm
 ```
 2. Create and activate a virtual environment:
