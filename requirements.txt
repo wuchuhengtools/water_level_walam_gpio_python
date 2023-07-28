@@ -1,5 +1,10 @@
+certifi==2023.7.22
+charset-normalizer==3.2.0
 colorzero==2.0
 gpiozero==1.6.2
+idna==3.4
 pigpio==1.78
 python-dotenv==1.0.0
+requests==2.31.0
 RPi.GPIO==0.7.1
+urllib3==2.0.4
