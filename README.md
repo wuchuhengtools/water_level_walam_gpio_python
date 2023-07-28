@@ -28,10 +28,15 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. Install project dependencies:
+3. Install project dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+4. update requirements.txt
+```bash 
+pip freeze > requirements.txt
 ```
 ## Startup
 To start the water level alarm, run the following command:
