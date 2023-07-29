@@ -42,7 +42,7 @@ pip freeze > requirements.txt
 To start the water level alarm, run the following command:
 
 ```bash 
-python3 main.py
+python3 src/main.py
 ```
 
 ## Testing
